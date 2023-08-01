@@ -1,6 +1,7 @@
 
 const tablinks= document.getElementsByClassName("tab-links") ; 
 const tabcontents= document.getElementsByClassName("tab-contents") ; 
+
 function opentab (tabname){
     for(tablink of tablinks){
         tablink.classList.remove("active-link");
@@ -13,6 +14,7 @@ function opentab (tabname){
     document.getElementById(tabname).classList.add("active-tab")
 }
 
+// **************for sidemenu********************
 
 const sidemenu= document.getElementById("sidemenu")
 
@@ -26,7 +28,7 @@ function closemenu(){
 
 // ******************for contact form ******************************
 // const scriptURL = '<SCRIPT URL>'
-const scriptURL = `${GOOGLE_SHEET_SCRIPT_URL}`
+const scriptURL = `${SCRIPT_URL}`
 const form = document.forms['submit-to-google-sheet']
 const msg = document.getElementById("msg")
 
@@ -37,8 +39,8 @@ form.addEventListener('submit', e => {
         msg.innerHTML= "Message sent succesfully"
         setTimeout(function(){
             msg.innerHTML=""
-        }, 5000);
-        form.reset()
+        }, 3000);
+        form.reset();
     })
     .catch(error => console.error('Error!', error.message))
 })
