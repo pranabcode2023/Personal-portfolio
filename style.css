@@ -71,3 +71,16 @@ nav ul li a:hover::after{
 .header-text span{
     color: #ff004f;
 }
+
+/* *************************about****************************  */
+
+#about{
+    padding: 80px;
+    color: #ababab;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
