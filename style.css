@@ -32,7 +32,7 @@ nav {
   flex-wrap: wrap;
 }
 .logo {
-  width: 400px;
+  width:140px;
 }
 
 nav img{
@@ -160,6 +160,7 @@ nav ul li a:hover::after {
 .tab-contents.active-tab {
   display: block;
 }
+
 
 /* ******************services************************* */
 #services {
