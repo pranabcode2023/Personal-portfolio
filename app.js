@@ -27,8 +27,8 @@ function closemenu(){
 }
 
 // ******************for contact form ******************************
-// const scriptURL = '<SCRIPT URL>'
-const scriptURL = `${SCRIPT_URL}`
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxHC5UjLnAdNOqmoKC_TdTN6bu8Q0iJLV3VU8h0yrsSRGnO7Qn0uoliSJDSFPxck7WMyQ/exec'
+// const scriptURL = `${process.env.SCRIPT_URL}`
 const form = document.forms['submit-to-google-sheet']
 const msg = document.getElementById("msg")
 
