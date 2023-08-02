@@ -455,3 +455,12 @@ nav .fa-solid {
     font-size: 14px;
   }
 }
+
+
+/* **********google_translate**************** */
+
+.google_translate{
+  display: block;
+  border: 2px solid #fff;
+  padding: 5px 10px ;
+}
