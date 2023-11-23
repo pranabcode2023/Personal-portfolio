@@ -164,7 +164,7 @@ nav ul li a:hover::after {
 
 
 /* ******************services************************* */
-#services {
+/* #services {
   padding: 30px 0;
 }
 .services-list {
@@ -205,7 +205,7 @@ nav ul li a:hover::after {
 .services-list div:hover {
   background-color: #ff004f;
   transform: translate(-10px);
-}
+} */
 
 /* ******************************portpolio********************* */
 
@@ -360,19 +360,22 @@ form .btn2 {
   cursor: pointer;
 }
 
-.copyright {
-  width: 100%;
-  text-align: center;
+/* .footer {
+  display: flex;
+  position: relative;
+margin-bottom: 0;
+  justify-content: center;
   padding: 25px 0;
   background: #262626;
   font-weight: 300;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
-.copyright i {
+.footer i {
   color: #ff004f;
   margin: 0 2px;
-}
+
+} */
 
 
 #msg{
@@ -451,9 +454,9 @@ nav .fa-solid {
   .contact-left, .contact-right{
     flex-basis: 100%;
   }
-  .copyright{
+  /* .footer{
     font-size: 14px;
-  }
+  } */
 }
 
 
